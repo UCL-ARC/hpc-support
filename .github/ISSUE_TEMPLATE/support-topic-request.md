@@ -29,6 +29,6 @@ Links to any existing articles, for example on Confluence or the [UCL Research C
 
 If no article exists for this issue in Confluence or the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/), a new page should be created in the [hpc-support wiki on Github](https://github.com/UCL-ARC/hpc-support/wiki).
 
-If an article does exist in Confluence or the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/), comment on the issue with a link to the article and close the issue.
+If an article does exist in Confluence or the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/) that completely covers the topic, comment on this issue with a link to the article and close the issue.
 
 If it is not clear whether an article exists that completely covers this topic, discuss in the comments to determine whether a new page should be written or whether the existing documentation is sufficient.
