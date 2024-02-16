@@ -1,6 +1,6 @@
 # myriad-map
 
-This is a map of the myriad cluster. It may be useful to explain to users what the cluster "looks like".
+This is a map of the Myriad cluster. It may be useful to explain how to navigate the cluster.
 
 The `.drawio` file is an XML document that can be opened with the [draw.io app](https://www.drawio.com/) or in your [browser](https://app.diagrams.net/).
 
