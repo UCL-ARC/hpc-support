@@ -1,0 +1,42 @@
+---
+name: Support Topic Request
+description: Request a new article on a support topic
+labels: "support topic"
+title: "[Support Topic Request]"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of the new topic
+      placeholder: >-
+        This is a request to document the current workflow...
+    validations:
+      required: true
+  - type: textarea
+    id: related_to
+    attributes:
+      label: Related to
+      description: >-
+        Links to relevant tickets in Remedyforce, or discussions in Slack, or
+        discussions in Teams
+    validations:
+      required: false
+  - type: textarea
+    id: related_to
+    attributes:
+      label: Existing resources
+      description: >-
+        Links to any existing articles, for example in the [ARC Internal Documentation](https://github.com/UCL-ARC/arc-internal-documentation/blob/main/Advanced-Research-Computing/README.md)
+        or the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/),
+        that partially satisfy this request
+    validations:
+      required: false
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: A brief plan for how this request can be fulfilled
+   validations:
+      required: false
+      
