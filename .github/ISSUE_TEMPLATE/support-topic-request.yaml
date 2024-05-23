@@ -1,23 +1,22 @@
----
-name: Support Topic Request
-description: Request a new article on a support topic
+name: "Support Topic Request"
+description: "Request a new article on a support topic"
 labels: "support topic"
 title: "[Support Topic Request]"
 body:
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: A short description of the new topic
-      placeholder: >-
+      label: "Description"
+      description: "A short description of the new topic"
+      placeholder: |
         This is a request to document the procedure for transferring large datasets...
     validations:
       required: true
   - type: textarea
     id: related_to
     attributes:
-      label: Related to
-      description: >-
+      label: "Related to"
+      description: |
         Links to relevant tickets in Remedyforce, or discussions in Slack, or
         discussions in Teams
     validations:
@@ -25,8 +24,8 @@ body:
   - type: textarea
     id: related_to
     attributes:
-      label: Existing resources
-      description: >-
+      label: "Existing resources"
+      description: |
         Links to any existing articles, for example in the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/),
         that partially satisfy this request
     validations:
@@ -34,8 +33,8 @@ body:
   - type: textarea
     id: recommendation
     attributes:
-      label: Recommendation
-      description: A brief plan for how this request can be fulfilled
+      label: "Recommendation"
+      description: "A brief plan for how this request can be fulfilled"
    validations:
       required: false
       
