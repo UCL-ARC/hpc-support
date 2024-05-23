@@ -10,7 +10,7 @@ body:
       label: Description
       description: A short description of the new topic
       placeholder: >-
-        This is a request to document the current workflow...
+        This is a request to document the procedure for transferring large datasets...
     validations:
       required: true
   - type: textarea
@@ -27,8 +27,7 @@ body:
     attributes:
       label: Existing resources
       description: >-
-        Links to any existing articles, for example in the [ARC Internal Documentation](https://github.com/UCL-ARC/arc-internal-documentation/blob/main/Advanced-Research-Computing/README.md)
-        or the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/),
+        Links to any existing articles, for example in the [UCL Research Computing Documentation](https://www.rc.ucl.ac.uk/docs/),
         that partially satisfy this request
     validations:
       required: false
